@@ -1,1 +1,3 @@
 This is the final project for the Getting and Cleaning Data Coursera course.  It consists of scripts to clean and aggregate accelerometer data for wearable devices.
+
+This script loads the training data, the training labels, and the test data and labels.  It also loads the subject identifiers from subject_train and subject_test and the human-readable activity labels from activity_labels.txt.  It selects only the mean and std columns from the training and test data and replaces the numeric activity labels with human-readable ones.  It prepends the human-readable activity labels and the subject identifiers and aggregates by subject ID and activity label, taking the mean of the feature columns.
